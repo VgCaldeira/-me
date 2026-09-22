@@ -1,0 +1,11 @@
+{
+  "name": "ame-estetica-site",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "live-server --port=5173 --no-css-inject"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
