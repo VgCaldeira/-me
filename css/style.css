@@ -408,6 +408,12 @@ em, i.serif-italic {
   overflow: hidden;
   box-shadow: var(--shadow-soft);
 }
+.hero__visual > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
 
 .placeholder-img {
   width: 100%;
@@ -738,6 +744,12 @@ em, i.serif-italic {
 }
 .about__photo { aspect-ratio: 3/4; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-soft); }
 .about__photo .placeholder-img { border-radius: 0; height: 100%; }
+.about__photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
 
 .about__quote {
   font-family: var(--font-serif);
